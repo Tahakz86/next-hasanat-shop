@@ -43,8 +43,6 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-      <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js" />
-      <div hidden id="snipcart" data-api-key="[ODIyNWZiYWUtMWYxMS00ZjM0LThmMmYtYzY5ZDI3ODg4ZDhhNjM3ODQwMDc0NzY3MDA0Njkw]" />
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -56,6 +54,8 @@ export default function Home() {
           </span>
         </a>
       </footer>
+      <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js" />
+      <div hidden id="snipcart" data-api-key="[ODIyNWZiYWUtMWYxMS00ZjM0LThmMmYtYzY5ZDI3ODg4ZDhhNjM3ODQwMDc0NzY3MDA0Njkw]" />
     </div>
   )
 }
