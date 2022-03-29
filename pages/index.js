@@ -61,8 +61,9 @@ export default function Home() {
           </span>
         </a>
       </footer>
-      <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js" />
-      <div hidden id="snipcart" data-api-key="[ODIyNWZiYWUtMWYxMS00ZjM0LThmMmYtYzY5ZDI3ODg4ZDhhNjM3ODQwMDc0NzY3MDA0Njkw]" />
+      <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.css" />
+      <script async src="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.js"></script>
+      <div id="snipcart" data-config-modal-style="side" data-api-key="ODIyNWZiYWUtMWYxMS00ZjM0LThmMmYtYzY5ZDI3ODg4ZDhhNjM3ODQwMDc0NzY3MDA0Njkw" hidden></div>
     </div>
   )
 }
