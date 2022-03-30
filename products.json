@@ -12,5 +12,19 @@
         "id": "sticker_logo_pack",
         "description": "Get a pack of 3 Snipcart logo stickers.",
         "price": "4.00"
+      },
+      {
+        "title": "Laptop Lenovo Legion",
+        "image": "/images/lenovolegion.jpg",
+        "id": "lenovolegion",
+        "description": "Laptop Lenovo Legion.",
+        "price": "1000.00"
+      },
+      {
+        "title": "Samsung s10e",
+        "image": "/images/samsungs10e.jpg",
+        "id": "lenovolegion",
+        "description": "Samsung s10e smartphone.",
+        "price": "200.00"
       }
 ]
